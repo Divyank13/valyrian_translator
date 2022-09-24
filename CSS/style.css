@@ -1,0 +1,18 @@
+/* navbar */
+.nav{
+    width: 100%;
+    background-color: #3B0000;
+    padding: 1rem;
+}
+.head{
+    margin: 0;
+    font-size: 3rem;
+}
+
+
+/* body  */
+body{
+    background-color: black;
+    margin: 0;
+    text-align: center;
+}

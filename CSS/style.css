@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Cutive+Mono&display=swap');
+
+
+/* body  */
+body{
+    background-color: black;
+    margin: 0;
+    text-align: center;
+}
+
+
 /* navbar */
 .nav{
     width: 100%;
@@ -7,12 +18,21 @@
 .head{
     margin: 0;
     font-size: 3rem;
+    font-family: 'Audiowide', cursive;
+    color: black;
 }
 
-
-/* body  */
-body{
+/* textarea */
+.txtarea{
     background-color: black;
-    margin: 0;
-    text-align: center;
+    border-width: 1px;
+    border-color: #3B0000;
+    border-radius: 20px;
+    padding: 1.5rem;
+    color: #B22727;
+    font-family: 'Cutive Mono', monospace;
+    
+}
+textarea[name="input"]{
+    margin-top: 1rem;
 }

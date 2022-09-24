@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Cutive+Mono&family=Varela+Round&display=swap');
 
 
 /* body  */
@@ -39,12 +39,32 @@ textarea[name="input"]{
 }
 
 
+/* btn  */
+.btn{
+    background-color: #3B0000;
+    border-width: 0;
+    padding: 1% 15%;
+    font-size: 1rem;
+    font-family: 'Varela Round', sans-serif;
+}
+.btn:hover{
+    background-color: black;
+    color: #B22727;
+}
+
+/* text  */
+h2{
+    color: #890F0D;
+    font-family: 'Audiowide', cursive;
+}
+
 
 @media only screen and (max-width: 826px) {
-    .nav{
+    .nav .foot{
         width: 100%;
     }
     .txtarea{
         width: 50%;
+        height: 40%;
     }
 }

@@ -49,6 +49,7 @@ textarea[name="output"]{
     padding: 1% 15%;
     font-size: 1rem;
     font-family: 'Varela Round', sans-serif;
+    cursor: pointer; 
 }
 .btn:hover{
     background-color: black;

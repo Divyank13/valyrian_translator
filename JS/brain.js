@@ -11,9 +11,12 @@ function errorHandling(error){
 function clickHandler(){
     var url = "https://api.funtranslations.com/translate/valyrian.json"
     txtInput = url + "?" + "text=" + input.value
-    fetch(txtInput)
-        .then(response => response.json())
-        .then(json => {
+    let fetched = fetch(txtInput)
+    fetched
+        .then(function(response){
+            return response.json()
+        })
+        .then(function(json){
             translatedTxt = (json.contents.translated)
             output.innerText = translatedTxt
         })
